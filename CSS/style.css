@@ -138,7 +138,7 @@ img{
 .hero{
 	height: 100vh;
 	min-height: 600px;
-	background: url('../Assets/images/hero-bg.jpg') center/cover no-repeat;
+	background: url('../Assets/images/hero-img.jpg') center/cover no-repeat;
 	display: flex;
 	align-items: center;
 	justify-content: center;
