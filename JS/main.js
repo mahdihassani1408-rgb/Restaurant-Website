@@ -1,12 +1,11 @@
 // JavaScript Document
 
-import initNavbar from "./Modules/navbar";
-import initFormHandler from "./Modules/formHandler";
-import initBackToTop from "./Modules/backToTop";
+import initNavbar from "./Modules/navbar.js";
+import initFormHandler from "./Modules/formHandler.js";
+import initBackToTop from "./Modules/backToTop.js";
 
 document.addEventListener('DOMContentLoaded', () =>{
     initNavbar();
-    initScrollReveal();
     initFormHandler();
     initBackToTop();
 });

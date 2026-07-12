@@ -90,6 +90,9 @@ img{
 @media(max-width: 768px){
 	.hamburger{
 		display: flex;
+		position: absolute;
+		top: 1.4rem;
+		right: 0.6rem;
 	}
 
 	.nav-menu{
