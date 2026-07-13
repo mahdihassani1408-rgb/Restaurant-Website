@@ -3,8 +3,12 @@
 export default function initBackToTop(){
     const btn = document.getElementById('back-to-top');
 
+    if(!btn){
+        console.error("Back to top button not found!");
+    }
+
     window.addEventListener('scroll', () =>{
-        if(window.scroll > 300){
+        if(window.scrollY > 300){
             btn.classList.add('show');
         }else{
             btn.classList.remove('show');

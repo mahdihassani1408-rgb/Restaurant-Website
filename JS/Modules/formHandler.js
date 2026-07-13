@@ -1,8 +1,8 @@
 // JavaScript Document
 
 export default function initFormHandler(){
-    const form = document.querySelector('contact-form');
-    const messageDiv = form.querySelector('form-message');
+    const form = document.querySelector('.contact-form');
+    const messageDiv = form.querySelector('.form-message');
 
     form.addEventListener('submit', (e) =>{
         e.preventDefault();
@@ -36,6 +36,6 @@ export default function initFormHandler(){
     }
 
     function isValidEmail(email){
-        return /^[^\s@]+@[^\s@]+\.[^\s@]+$.test(email);
+        return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
     }
 }

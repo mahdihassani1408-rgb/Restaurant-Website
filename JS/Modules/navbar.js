@@ -1,6 +1,7 @@
 // JavaScript Document
 
 export default function initNavbar(){
+
     const hamburger = document.querySelector('.hamburger');
     const navMenu = document.querySelector('.nav-menu');
 
