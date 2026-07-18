@@ -35,19 +35,19 @@ Built with semantic HTML, modern CSS, and modular Ordinary JavaScript.
 ## 📂 Project Structure
 
 Reastaurant-Website/
-|—— index.hml
-|—— css/
-| ⨽—— style.css
-|—— js/
-| ⊢—— main.js
-| ⨽—— modules/
-| ⊢—— navbar.js
-| ⊢—— formHandler.js
-| ⨽—— backToTop.js
-| ⊢—— assets/
-| ⨽—— images/
-|—— screenshots/
-⨽—— README.md
+├── index.hml
+├── css/
+|   └── style.css
+├── js/
+|   ├── main.js
+|   └── modules/
+|   ├── navbar.js
+|   ├── formHandler.js
+|   └── backToTop.js
+|   ├── assets/
+|   └── images/
+├── screenshots/
+└── README.md
 
 ## 🏁 Getting Started
 
